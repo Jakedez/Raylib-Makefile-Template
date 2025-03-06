@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "type": "cppdbg",
+      "request": "launch",
+      "preLaunchTask": "Build",
+      "program": "${workspaceFolder}/bin/main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "MIMode": "gdb"
+    },
+    {
+      "name": "Debug Program",
+      "type": "cppdbg",
+      "request": "launch",
+      "preLaunchTask": "Debug Build",
+      "program": "${workspaceFolder}/bin/debug/main_debug.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "MIMode": "gdb"
+    }
+  ]
+}
